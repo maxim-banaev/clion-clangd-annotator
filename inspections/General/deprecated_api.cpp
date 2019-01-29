@@ -1,7 +1,3 @@
-//
-// Created by jetbrains on 2019-01-29.
-//
-
 namespace {
     class Foo {
         int i;
@@ -13,7 +9,7 @@ namespace {
         void depricatedMethod() {}
     };
 
-    int main() {
+    int test() {
         Foo f;
         f.depricatedMethod(); // warn here
         return 0;
