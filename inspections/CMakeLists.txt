@@ -1,0 +1,4 @@
+add_subdirectory(Declaration_order)
+add_subdirectory(DFA)
+add_subdirectory(Functions)
+add_subdirectory(General)
