@@ -7,6 +7,9 @@
     <inspection_tool class="NamespaceClashes" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="NamespaceMultipleDefinitions" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="NamespaceUndefined" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="OCSimplifyInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="enableSimplifyIfWithConstantBranch" value="true" />
+    </inspection_tool>
     <inspection_tool class="PackageFileMissing" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PodLegacySectionLink" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PodOverlessItem" enabled="false" level="ERROR" enabled_by_default="false" />
